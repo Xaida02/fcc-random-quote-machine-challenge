@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(234, 202, 142);
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#quote-box {
+    border: solid;
+    border-radius: 10px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+}
+
+
+#text {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#author {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.button-div {
+    display: flex;
+    flex: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .tweet-div {
+    display: flex;
+    flex: auto;
+} */
